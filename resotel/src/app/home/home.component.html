@@ -6,7 +6,26 @@
                 <div class="name">
                     {{food.name}}
                 </div>
-                <span class="favourite">fav</span>
+                <span class="favourite">&#128512;</span>
+                <div><span class="star">{{food.star}}-STARS</span></div>
+                <div class="product-item-footer">
+                    <div class="origins">
+                        <span *ngFor="let origin of food.origins">
+                            {{origin}}
+                        </span>
+                    </div>
+                    <div class="cooktime">
+                        <span>🕒</span>
+                        <span>{{food.cookTime}}</span>
+                    </div>
+                    <div class="price">
+                        {{food.price|currency}}
+                    </div>
+
+                </div>
+                
+                       <!-- 1:33-->             
+                
                
             </div>
 

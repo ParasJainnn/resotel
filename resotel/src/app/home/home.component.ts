@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FoodService } from '../services/food/food.service';
 import { Foods } from '../services/food/food';
+import { NgxStarRatingModule } from 'ngx-star-rating';
 
 @Component({
   selector: 'app-home',
