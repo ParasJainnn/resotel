@@ -14,102 +14,124 @@ export class FoodService {
     
       {
         id:1,
-        name:'potato1',
-        price:2,
+        name:'Egg-Fry with Garlic bread',
+        price:50,
         favourite:true,
-        star:2,
-        tags:['fastfood'],
+        star:3.5,
+        tags:['fastfood','freid','soup'],
         imageurl:'assets/a1.jpeg',
-        cookTime:15-20,
-        origins:['belgium','paris'],
+        cookTime:35-40,
+        origins:['New-York','Paris'],
       },
       
       {
         id:2,
-        name:'potato2',
-        price:2,
+        name:'Pizza-King',
+        price:100,
         favourite:true,
-        star:2,
-        tags:['fastfood'],
+        star:5,
+        tags:['fastfood','pizza'],
         imageurl:'assets/a2.jpeg',
         cookTime:15-20,
-        origins:['belgium','paris']
+        origins:['India','Paris']
       },
       
       {
         id:3,
-        name:'potato3',
-        price:2,
+        name:'Noodles-Love',
+        price:30,
         favourite:true,
-        star:2,
-        tags:['fastfood','Frie'],
+        star:4,
+        tags:['fastfood','Frie','Noodles'],
         imageurl:'assets/a3.webp',
         cookTime:15-20,
-        origins:['belgium','paris'],
+        origins:['Belgium','China'],
       },
       {
       id:4,
-        name:'potato',
-        price:2,
+        name:'delcious-breakfast',
+        price:10,
         favourite:true,
-        star:2,
-        tags:['fastfood,Frie'],
-        imageurl:'assets/a4.webp',
+        star:4,
+        tags:['fastfood,Frie','lunch'],
+        imageurl:'assets/a4.jpg',
         cookTime:15-20,
-        origins:['belgium','paris'],
+        origins:['Belgium','Paris','Indian'],
       },
       
     
       {
         id:5,
-        name:'potato',
-        price:2,
+        name:'Pasta-Hungry',
+        price:40,
        favourite:true,
         star:2,
-        tags:['fastfood,frie'],
+        tags:['fastfood,frie','soup'],
         imageurl:'assets/a5.jpeg',
         cookTime:15-20,
-        origins:['belgium','paris']
+        origins:['Italy','Paris']
       },
       
       
       
       {
         id:6,
-        name:'potato',
-        price:2,
-        favourite:true,
+        name:'Garlic Bread -Spinach',
+        price:15,
+        favourite:false,
         star:2,
-        tags:['fastfood,frie'],
+        tags:['breakfast'],
         imageurl:'assets/a6.jpeg',
         cookTime:15-20,
-        origins:['belgium','paris']
+        origins:['Indian','Turkey']
       },
       
       
    
       {
         id:7,
-        name:'potato',
-        price:2,
+        name:'sapheti-soup',
+        price:19,
        favourite:true,
         star:2,
         tags:['fastfood,frie'],
         imageurl:'assets/a7.jpeg',
         cookTime:15-20,
-        origins:['belgium','paris']
+        origins:['Japan','India']
       },
       
       {
         id:8,
-        name:'potato',
-        price:2,
+        name:'Choco-Pie-Jelly',
+        price:50,
        favourite:true,
-        star:2,
-        tags:['fastfood,frie'],
-        imageurl:'assets/a8.webp',
+        star:5,
+        tags:['Dessert,Frie'],
+        imageurl:'assets/a8.jpg',
         cookTime:15-20,
-        origins:['belgium','paris'],
+        origins:['London','Paris','Torronto'],
+      },
+      {
+        id:9,
+        name:'Crispy-Kawab',
+        price:70,
+        favourite:false,
+        star:4,
+        tags:['fastfood,frie'],
+        imageurl:'assets/a9.jpg',
+        cookTime:15-20,
+        origins:['belgium','paris']
+      },
+      {
+        id:10,
+        name:'BakkarWadi-Jalwa',
+        price:10,
+       favourite:false,
+        star:4,
+        tags:['fastfood,frie'],
+        imageurl:'assets/a10.jpg',
+        cookTime:15-20,
+        origins:['India']
       },
     ];
   }
